@@ -1,0 +1,51 @@
+body {
+    background-image: url(groot-marvel-guardian-galaxy-desktop-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: inline-start;
+    display: inline;
+    justify-content: flex-end;
+}
+li a {
+      display: flex;
+      color: white;
+      padding: 14px 16px;
+      text-align: left;
+      text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+nav a {
+    color: white;
+    gap: 30px;
+}
+a {
+   justify-content: flex-end;
+}
+a:hover {
+    text-decoration: overline;
+}
+h1{
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    color: darkgoldenrod;
+}
