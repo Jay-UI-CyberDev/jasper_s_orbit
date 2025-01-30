@@ -1,0 +1,29 @@
+
+body {
+    min-height: 800px;
+    border: 9px solid black;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(26, 16, 170, 0.726);
+    font-size: 40pt;
+}
+@media (max-width: 575px) {
+    border-bottom-style: ; {
+        background-color: red;
+    }
+}
+.box1 {
+    margin-right: auto;
+}

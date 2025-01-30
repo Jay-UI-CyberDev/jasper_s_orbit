@@ -1,0 +1,37 @@
+* {
+    padding-top: 40px;
+}
+a {
+    display: inline;
+}
+.none {
+    color: black;
+}
+.green {
+    text-decoration: none;
+    color: green;
+}
+.border {
+    border: 3px solid green;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.button {
+    border: ;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: red;
+}
+#edu span {
+    color: red;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid green;
+    background-color: green;
+}
+.text {
+    text-align: center;
+}

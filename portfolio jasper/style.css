@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+.box {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.box > img {
+    width: 100%;
+    vertical-align: middle;
+    padding: 10px;
+}
+@media screen and (max-width: 400px) {
+    .box { 
+        flex: calc(100%/1);
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 401px) {
+    .box {
+        flex: calc(100%/2);
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 900px) {
+    .box {
+        flex: calc(100%/3);
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .box {
+        flex: calc(100%/4);
+        max-width: 100%;
+    }
+}

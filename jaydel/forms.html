@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <b>
+        <fieldset>
+            <legend>License Details</legend>
+        <ul>
+            <li>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email">
+            </li>
+            <li>
+                <label for="website">Website</label>
+                <input type="text" name="website" placeholder="http://www.example.com/" id="website">
+            </li>
+            <li>
+                <label for="number of licenses">Number Of Licenses</label>
+                <input type="number" name="lnumber" placeholder="How many to buy(1-10)" max="10" min="1" id="lnumber">
+            </li>
+        </ul>
+    </fieldset>
+
+        <fieldset>
+            <legend>Billing Details</legend>
+        <ul>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="flname" placeholder="First Last" id="name">
+            </li>
+            <li>
+                <label for="address">Address</label>
+                <textarea placeholder="House number, street, city, state"></textarea>
+            </li>
+            <li>
+                <label for="postal code">Postal Code</label>
+                <input type="number" name="pcode" placeholder="Post code or zip code" id="pcode">
+            </li>
+            <li>
+                <label for="country">Country</label>
+                <input type="text" name="country" id="country">
+            </li>
+            <li>
+                <label for="phone">Phone<i>(optional)</i></label>
+                <input type="number" name="phone" placeholder="Include country prefix e.g." id="phone">
+            </li>
+        </ul>
+    </fieldset>
+    </b>
+    <fieldset>
+        <legend>Payment Details</legend>
+        <ul>
+            <li>
+        <label for="card number">Card number</label>
+        <input type="number" placeholder="As shown of the front of your" name="cnum" id="cnum">
+            </li>
+            <li>
+                <label for="cvv code">CVV code</label>
+                <input type="number" placeholder="A 3-digit number on the back of">
+            </li>
+            <li>
+                <label for="expiry date">Expiry Date</label>
+                <input type="number" placeholder="YYYY-MM">
+            </li>
+        </ul>
+    </fieldset>
+    </form>
+</body>
+</html>
